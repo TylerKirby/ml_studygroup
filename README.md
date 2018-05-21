@@ -12,7 +12,12 @@ We will mostly work from Jupyter notebooks so you won't need an IDE. But if you 
 developement, then download [PyCharm](https://www.jetbrains.com/pycharm/). The free community
 edition includes everything you need.
 
-## Fast.ai
-The plan is to work through the [fast.ai](http://www.fast.ai/) courses together. We'll
-start with [Practical Deep Learning for Coders](http://course.fast.ai/) and move on from there.
-I'll supplement their lessons with some helpful odds and ends.
+## Schedule
+### Week 1: Intro to Classification
+Ho classify images
+ HW: watch [fast.ai](www.fast.ai) lesson 1
+### Week 2: Image Classification with Convolutional Neural Networks
+- How to classify images
+- HW: build a Simpsons characters classifier
+### Week 3: Advanced Techniques in Image Classification
+### Week 4: Gradient Descent Deep Dive
