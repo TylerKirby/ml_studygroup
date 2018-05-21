@@ -14,10 +14,19 @@ edition includes everything you need.
 
 ## Schedule
 ### Week 1: Intro to Classification
-Ho classify images
- HW: watch [fast.ai](www.fast.ai) lesson 1
+ - How classify images
+ - HW: watch [fast.ai](www.fast.ai) lesson 1
 ### Week 2: Image Classification with Convolutional Neural Networks
-- How to classify images
-- HW: build a Simpsons characters classifier
+ - How to classify images with CNNs
+ - HW: build a Simpsons characters classifier
 ### Week 3: Advanced Techniques in Image Classification
+ - Building better CNNs
+ - HW: watch [fast.ai](www.fast.ai) lesson 2
+ - HW: build a fruit classifier
 ### Week 4: Gradient Descent Deep Dive
+ - Optimization 201
+ - HW: implement gradient descent in Python
+ - HW: watch [fast.ai](www.fast.ai) lesson 3
+### Week 5: Regression
+ - Linear, polynomial, and logistic regression
+ - Feature engineering 101
