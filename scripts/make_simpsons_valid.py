@@ -17,9 +17,8 @@ os.mkdir(data_path+'/excluded_chars')
 
 for dir in char_dirs:
     if dir not in first_20_chars:
-        src = data_path+'/valid/'+dir
-        target = data_path+'/excluded_chars_valid/'+dir
-        print(src, target)
+        src = data_path+'/simpsons_dataset/'+dir
+        target = data_path+'/excluded_chars/'+dir
         os.rename(src, target)
 
 if 'valid' not in sub_dirs:
