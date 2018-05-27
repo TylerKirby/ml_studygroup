@@ -23,13 +23,14 @@ for dir in char_dirs:
 
 if 'valid' not in sub_dirs:
     os.mkdir(data_path+'/valid')
-    for dir in char_dirs:
-        print(data_path+'/valid/'+dir)
+    for dir in first_20_chars:
+        print('Creating validation data path: '+data_path+'/valid/'+dir)
         os.mkdir(data_path+'/valid/'+dir)
 
-char_paths_train = [data_path+'/simpsons_dataset/'+dir for dir in char_dirs]
+char_paths_train = [data_path+'/simpsons_dataset/'+dir for dir in first_20_chars]
 
 for path in char_paths_train:
+    print('Creating training data path: ' + path)
     char = path.split('/')[-1]
     files = os.listdir(path)
     file_paths = [path+'/'+file for file in files]
@@ -41,3 +42,6 @@ for path in char_paths_train:
     for path in test_file_paths:
         file = path.split('/')[-1]
         os.rename(path, destination_dir+'/'+file)
+
+print('Moving training data to '+data_path+'/train')
+os.rename(data_path+'/simpsons_dataset', data_path+'/train')
