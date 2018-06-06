@@ -12,6 +12,8 @@ scikit-learn = "*"
 keras = "*"
 tensorflow = "*"
 jupyter = "*"
+torch = "*"
+torchvision = "*"
 
 [dev-packages]
 
